@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-17T23:36:43 CDT" name="Default suite" finished-at="2022-04-17T23:39:17 CDT" duration-ms="153866">
+    <groups>
+    </groups>
+    <test started-at="2022-04-17T23:36:43 CDT" name="Default test" finished-at="2022-04-17T23:39:17 CDT" duration-ms="153866">
+      <class name="Webdriver.MakeMyTrip">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:36:43 CDT" name="intialization" finished-at="2022-04-17T23:37:09 CDT" duration-ms="25575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="Flight()[pri:1, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:37:09 CDT" name="Flight" finished-at="2022-04-17T23:37:17 CDT" duration-ms="8258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight -->
+        <test-method signature="DataPicker()[pri:2, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:37:17 CDT" name="DataPicker" finished-at="2022-04-17T23:37:18 CDT" depends-on-methods="Webdriver.MakeMyTrip.Flight" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataPicker -->
+        <test-method signature="DepartureFlightInfo()[pri:3, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:37:18 CDT" name="DepartureFlightInfo" finished-at="2022-04-17T23:38:03 CDT" depends-on-methods="Webdriver.MakeMyTrip.DataPicker" duration-ms="45857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepartureFlightInfo -->
+        <test-method signature="ReturnFilghtInfo()[pri:4, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:38:03 CDT" name="ReturnFilghtInfo" finished-at="2022-04-17T23:38:04 CDT" depends-on-methods="Webdriver.MakeMyTrip.DepartureFlightInfo" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnFilghtInfo -->
+        <test-method signature="FarePriceCheck(int,int)[pri:5, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:38:04 CDT" name="FarePriceCheck" data-provider="getData" finished-at="2022-04-17T23:38:40 CDT" depends-on-methods="Webdriver.MakeMyTrip.ReturnFilghtInfo" duration-ms="36787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarePriceCheck -->
+        <test-method signature="FarePriceCheck(int,int)[pri:5, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:38:40 CDT" name="FarePriceCheck" data-provider="getData" finished-at="2022-04-17T23:39:17 CDT" depends-on-methods="Webdriver.MakeMyTrip.ReturnFilghtInfo" duration-ms="36444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FarePriceCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Webdriver.MakeMyTrip@7671cb68]" started-at="2022-04-17T23:39:17 CDT" name="quit" finished-at="2022-04-17T23:39:17 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Webdriver.MakeMyTrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
